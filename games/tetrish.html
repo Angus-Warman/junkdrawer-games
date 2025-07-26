@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<style>
+	canvas {
+		border: 1px solid black;
+		background-color: lightgrey;
+		position: fixed;
+		left: 0;
+		top: 0;
+	}
+
+	html, body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding:0;
+		overflow: hidden;
+	}
+
+	.controls {
+		position: fixed;
+		left: 10px;
+		top: 10px;
+	}
+
+	.row {
+		display: flex;
+		align-items: start;
+	}
+</style>
+
+<body>
+	<canvas id="canvas"></canvas>
+
+	<div class="controls">
+		<div class="row">
+			<t>Score:</t>
+			&nbsp;
+			<t id="score"></t>
+			&nbsp;
+			&nbsp;
+			<t>High Score:</t>
+			&nbsp;
+			<t id="highscore"></t>
+			&nbsp;
+			&nbsp;
+			<button onclick="executeCommand('restart')">Restart</button>  
+		</div>		
+	</div>
+</body>
+
+<script src="gameSetup.js"></script>
+<script src="gameControls.js"></script>
+<script src="tetrish.js"></script>
+
+</html>
