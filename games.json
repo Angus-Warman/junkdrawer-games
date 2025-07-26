@@ -1,0 +1,14 @@
+{
+	"games": [
+		{
+			"name": "Tetrish",
+			"file": "https://angus-warman.github.io/junkdrawer-games/games/tetrish.html",
+			"additional_files": [
+				"https://angus-warman.github.io/junkdrawer-games/games/tetrish.js",
+				"https://angus-warman.github.io/junkdrawer-games/games/gameControls.js",
+				"https://angus-warman.github.io/junkdrawer-games/games/gameEngine.js",
+				"https://angus-warman.github.io/junkdrawer-games/games/gameSetup.js"
+			]
+		}
+	]
+}
