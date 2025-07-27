@@ -9,6 +9,16 @@
 				"https://angus-warman.github.io/junkdrawer-games/games/gameEngine.js",
 				"https://angus-warman.github.io/junkdrawer-games/games/gameSetup.js"
 			]
+		},
+		{
+			"name": "Quickollect",
+			"file": "https://angus-warman.github.io/junkdrawer-games/games/quickollect.html",
+			"additional_files": [
+				"https://angus-warman.github.io/junkdrawer-games/games/quickollect.js",
+				"https://angus-warman.github.io/junkdrawer-games/games/gameControls.js",
+				"https://angus-warman.github.io/junkdrawer-games/games/gameEngine.js",
+				"https://angus-warman.github.io/junkdrawer-games/games/gameSetup.js"
+			]
 		}
 	]
 }
